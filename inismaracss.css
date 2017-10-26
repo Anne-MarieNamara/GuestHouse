@@ -1,0 +1,478 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin-right:auto;
+	margin-left: auto;
+	overflow:auto;
+	align-content: center;
+	color: #1a3c76;
+
+}
+
+h1{
+color: #FFFFFF;
+text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+h2, h3 {
+	color: #5182d8;
+	text-shadow: grey 0.1em 0.1em 0.1em;
+}
+
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+	
+	margin: auto;
+}
+
+
+#header{
+	overflow: hidden;
+	background-image: url(galwaysunset1800x200.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* background-attachment: hidden; */
+	background-position: center;
+	margin: 0px 20px 0px 0px;
+	height: 10%;
+	width: 100%;
+	text-align: left;
+	outline: black;
+	line-height: 80%;
+	color: #FFFFFF;
+	padding: 100px 20px 0px 20px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#sitetitle{
+	height: 50%;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#hnavbar {
+
+	line-height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	height: 40px;
+	width: 100%;
+	background-color:#cedcf4;
+	border:1px #CCCCCC;
+	align-content: center;
+	text-align: center;
+	color: #5182d8;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 8px;
+}
+#hnavbar a:hover{
+	background-color: #5182d8;
+	color:#FFFFFF;
+}
+ 
+ #hnavbar ul{
+ 	height: auto;
+ 	margin: 0px;
+ 	padding: 8px 0px;
+ }
+
+ #hnavbar li{
+ 	display: inline;
+ 	padding: 20px;
+
+ }
+
+ #hnavbar a{
+ 	/* color: ; */
+ 	text-decoration: none;
+ 	padding: 7px 7px 7px 7px;
+ 	height:100%;
+ }
+
+
+#body{
+	/*clear:both;*/
+	width: 100%;
+	height: 100%;
+	margin-left: 0%;
+	margin-right: 25%;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+#copyright{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#sitemap{
+	float:right;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+/* INDEX PAGE */
+#intro{
+	
+	align-content: center;
+}
+#introtext{
+	text-align: center;
+	padding: 20px 20px 20px 80px;
+	/*margin: 20px 10px 20px 50px;*/
+	width: 70%;
+}
+
+
+#outsideview{
+	align-content: center;
+	padding: 0px 0px 0px 0px;
+	margin: 2% 25% 2% 25%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+}
+
+#bbpic{
+	
+	margin: auto;
+	width:50%;
+	border-radius: 10px;
+	
+
+}
+
+#testimonials{
+	clear: both;
+	width: 80%;
+	padding: 10px 10px 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cedcf4;
+	border-radius: 10px;
+}
+
+#testfrance, #testuk, #testusa {
+	display: inline-block;
+	vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	color: #1a3c76;
+	width: 30%;
+	height: auto;
+	
+}
+
+#awards{
+	clear: both;
+	width: 80%;
+	padding: 10px 12px 10px 12px;
+	background-color: #cedcf4;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+
+#trip2015, #trip2016, #bbireland, #failteireland, #mckennas, #wifi, #payment{
+	display: inline-block;
+	vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+/* ROOMS PAGE */
+
+#roomsfirstsentence{
+	width:80%;
+	margin: auto;
+	
+}
+
+#roommain{
+	margin: auto;
+	padding: 0px 0px 60px 0px ;
+	height: 100%;
+	width: 80%;
+
+}
+#ourroomstitle{
+	width: 50%;
+	margin: auto;
+	padding: 2px 2px 2px 2px;
+}
+
+#roominfotext{
+	text-align: center;
+	padding: 2px 2px 2px 2px;
+	
+}
+
+
+#eachroominfo{
+	padding: 2px 2px 2px 50px;
+	margin: auto;
+    position: relative;
+}
+
+ #atlanticpic, #moherpic, #westpic, #connachtpic{
+	width: 50%;
+	margin: 0% 0% 0% 20%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+}
+
+#atlanticparagraph, #moherparagraph, #westparagraph, #connachtparagraph, 
+#priceatlantic, #pricemoher, #pricewest, #priceconnacht{
+	
+	margin: auto;
+	width: 80%;
+}
+
+
+/* LOCATION PAGE */
+#locationcontainer{
+	width: 80%;
+	margin: auto;
+}
+
+#locationtitle{
+	align-content: center;
+}
+
+#locationtext{
+	align-content: center;
+	padding: 0px 100px 0px 100px;
+}
+
+#googlemap{
+	align-content: center;
+	padding: 0px 100px 0px 300px;
+}
+
+#address{
+	text-align: center;
+}
+
+/* LOCAL ATTRACTIONS */
+
+#localmain{
+	width: 100%;
+	margin: auto;
+}
+
+#eyre {
+	width: 50%;
+	margin: auto;
+	box-shadow: 10px 10px 5px #888888; 
+	border-radius: 10px;
+}
+
+#localpics{
+    
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0.5em;
+    padding: 10px;
+	width: 100%;
+	height: auto;
+}
+#localpics2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+	width: 100%;
+	height: auto;	
+}
+
+#localattractions,#beaches {
+	clear: both;
+	text-align: center;
+}
+
+ #eyresquare, #shoppingcentre, #golf{
+	width:23%;
+	height: auto;
+	margin: 4em;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888; 
+}
+
+#horseriding, #fishing, #watersport, #taafe{
+	width: 23%;
+	height: auto;
+	margin: 1em;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888; 
+} 
+
+
+/*  SIGHTSEEING TOURS */
+#sightseeing,  #cliffsofmohertext, #burrentext, 
+#connemaratext, #aranislandstext, #galwaycitytourtext{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+/* Sightseeing tour pictures  */
+#cliffsofmoher,#burrentour, #connemaratourpic, #aranislandstourpic, #galwaycitytour {
+	width: 80%;
+	height: auto;
+	margin: 0px 0px 0px 100px;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+}
+
+
+#sightseeingmain{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+
+#moreinformation{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+#cliffs {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#connemaratour{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#burrentour{
+	width: 80%;
+	height: auto;
+	margin-left: 110px;
+	
+}
+
+#aranislandtour{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#galwaycitytour, #lallytourtext {
+	width: 80%;
+	height: auto;
+	margin-left: 110px;
+	
+}
+
+#galwaytourcompanylogo{
+	align-content: center;
+}
+
+/* BOOK NOW */
+#form{
+	background-color:#DCE9F3;
+	width: 80%;
+	margin: auto;
+	box-shadow: 5px 5px 5px#888888;
+	border-radius: 10px;
+}
+
+#bookonline{
+	text-align: center;
+}
+
+/* FAQ PAGE */
+#info{
+	text-align: center;
+}
+
+/* SITE MAP */
+
+#bbsitemaplist{
+	text-align: center;
+}
+
+#sitemaplist{
+	text-decoration: none;
+	text-align: center;
+}
+
+#otherlinkslist{
+	text-decoration: none;
+	text-align: center;
+}
+
+#sitemaplist a:hover {
+	background-color: #5182d8;
+	color:#FFFFFF;
+}
+
+#otherlinkslist a:hover{
+	background-color: #5182d8;
+	color:#FFFFFF;
+}
+
+
+#footer{
+	clear:both;
+	background-color:#5182d8;
+	width:100%;
+	height: 10%;
+    position: relative; 
+	margin: auto;
+}
+
+#facebooklogo, #twitterlogo, #instagramlogo, #mastercardlogo, #visacardlogo{
+	display: inline-block;
+	height: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+#copyright{
+	clear:both;
+	text-align: center;
+	color: #FFFFFF;
+	background-color:#5182d8;
+}
+
+#medialogos{
+	clear:both;
+	text-align: center;
+	
+	
+}
+#sitemap{
+	clear:both;
+	text-align: center;
+ 	padding: 0px 0px 20px 10px;
+ 	text-decoration: none;
+	background-color:#5182d8;
+}
